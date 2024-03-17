@@ -3,7 +3,10 @@
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
-static float vertices[] = {-0.5f, -0.5f, 0.0f, 0.5f, 0.5f, -0.5f};
+static float vertices[] = {
+    -0.5f, 0.5f, -0.5f, -1.0f, 1.0f,
+        0.5f, 0.5f, -0.5f,
+    };
 
 static const char *vertex_source =
     "#version 330 core\n"

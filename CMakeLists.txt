@@ -16,6 +16,7 @@ project(DieRoller)
 
 find_package(PkgConfig)
 
+pkg_check_modules(ASSIMP REQUIRED assimp)
 pkg_check_modules(GLEW REQUIRED glew)
 pkg_check_modules(GLFW REQUIRED glfw3)
 
